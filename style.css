@@ -1,0 +1,64 @@
+nav{
+    text-align: right;
+    background-image: url('images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    color: white;
+}
+.content-details>h2{
+    font-size: 40px;
+}
+.content-details{
+    padding: 200px;
+    padding-left: 1000px;
+}
+.content-details>p{
+    font-size: 15px;
+}
+button{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(88, 88, 214);
+}
+.previous-year{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.previous-year-image{
+    padding-right: 100px;
+}
+.chack-list>p>i{
+    /* content: "\2713"; */
+    color: rgb(23, 153, 23);
+}
+.my-plans{
+    text-align: center;
+}
+.my-plans>.plans{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.plans>h2,p{
+    display: block;
+}
+footer{
+    background-image:
+    linear-gradient(to right, rgba(30, 48, 155, 0.52), rgba(250, 249, 250, 0.73)),
+    url('images/watch.png');
+     
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: auto;
+    color: white;
+    margin: 100px 200px;
+    }
+.footer-details{
+    padding: 50px;
+}
